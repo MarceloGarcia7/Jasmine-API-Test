@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="mobile-web-app-capable" content="yes">
+  <title>TEST GITHUB</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body class="mainConteiner">
+  <div class="dataContenedor">
+    <div class="searchDiv">
+      <input type="search" name="searchUser" id="searchUser" class="search" placeholder="Search username..." value="">
+      <button id="searchBtn" class="searchBtn">Search</button>
+    </div>
+    <div id="userOutput" class="userOutput">
+      <div id="outputAvatar" class="avatar">
+      </div>
+      <div id="outputData" class="tituloUser">
+      </div>
+    </div>
+    <div id="userRepo" class="reposOutput">
+      <h3>Repositories</h3>
+      <p id="noRepo" class="noRepo">This User has not Public Repositories</p>
+      <ul id="listRepo">
+      </ul>
+    </div>
+    <div id="noResult" class="noResult">
+      <p>Does not exist</p>
+    </div>
+  </div>
+
+  <script src="testGit.js"></script>
+</body>
+
+</html>
